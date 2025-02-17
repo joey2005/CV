@@ -49,12 +49,14 @@ main: #简历主要内容，
     - JAVA
     - Python
   - title: 网络开发
+    items:
     - HTML
     - CSS
     - Node.JS
     - React
     - SQL
   - title: 编程工具
+    items:
     - Git
     - SVN
 
