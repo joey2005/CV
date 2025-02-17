@@ -3,25 +3,25 @@
 
 title: "简历标题"
 lang: "zh" #语言设置 zh表示中文 en 表示英语
-name: "你的名字"
-jobtitle: "求职意向" #可空不显示
-photo: "assets/img/photo.jpg" #照片可空，不显示
+name: "刘彦"
+jobtitle: "软件工程师" #可空不显示
+photo: "" #照片可空，不显示
 
 #联系方式
 contact: #联系方式连接等3~5行
-- text: "youremail@example.com" #文本内容
-  href: 'mailto:youremail@example.com' #链接，无链接则空  
+- text: "yanliuse7@gmail.com" #文本内容
+  href: 'mailto:yanliuse7@gmail.com' #链接，无链接则空  
   icon: 'icons/email.svg' #图标 svg文件
-- text: "1234567890"
-  href: 'tel:1234567890'
+- text: "15900522074"
+  href: 'tel:15900522074'
   icon: 'icons/phone.svg'
-- text: "your-website.com"
-  href: 'http://your-website.com'
-  icon: 'icons/web.svg'
-- text: "GitHubID"
-  href: 'https://github.com/NewFuture'
-  icon: "icons/github.svg"
-  attr: 'target="_blank"' #新标签页打开
+#- text: "your-website.com"
+#  href: 'http://your-website.com'
+#  icon: 'icons/web.svg'
+#- text: "GitHubID"
+#  href: 'https://github.com/NewFuture'
+#  icon: "icons/github.svg"
+#  attr: 'target="_blank"' #新标签页打开
   # - text: "地址"
   #   icon: "icons/location.svg"
 
@@ -30,82 +30,113 @@ main: #简历主要内容，
 - type: education #类别为ID
   name: 教育 #显示名称，空则使用type
   content: #内容基本格式 标题-副标题-日期-详细内容 (都允许空)
-  - title: 大学名称
-    duration: "2011年x月 - 2015年"
-    sub: 地点或学历
-    detail: 专业或者简短说明
-  - title: Your University
-    duration: Aug 2007 - Jun 2011
-    sub: Ut enim ad minim veniam
-    detail: Master Bachelor of Computer Science & Technology.
+  - title: University of Chicago
+    duration: "2014年9月 - 2018年4月"
+    sub: Computer Science PhD
+    detail: 在芝加哥大学计算机科学专业攻读博士，后因自身不适合科研而中途退出选择参加工作，读博期间曾在HCII会议上发表过科研成果
+  - title: 上海交通大学
+    duration: 2010年9月 - 2014年6月
+    sub: 电子信息与电气工程专业本科
+    detail: 在上海交大读本科期间多次参加ACMICPC竞赛并获奖
 
 - type: skills
-  # name: "技能"
+  name: "技能"
   content:
   - title: 编程语言
     items: #itmems 可以小块的方式显示
-    - 汉语
-    - 语言2
-    - 语言3
-  - title: Skill Group
-    summary: Consectetur, Adipiscing, Elit
+    - C
+    - C++
+    - JAVA
+    - Python
+  - title: 网络开发
+    - HTML
+    - CSS
+    - Node.JS
+    - React
+    - SQL
+  - title: 编程工具
+    - Git
+    - SVN
 
 - type: experience
-  name: 经验
+  name: 经历
   content:
-  - title: 职位
-    sub: 某某公司
-    duration: "xxxx年xx月 - yyyy年yy月"
-    tags:
-    - 标签
-    summary: 职务或者工作总结(自动折叠)
-    detail: 同时包含 summary和detail在Chrome，Safari(包括IOS)，Android和新版Firefox等会自动折叠，不支持折叠的浏览器和展开后表现一致
+  - title: 助教
+    sub: BrainStation
+    duration: "2022年4月 - 2024年12月"
+    #tags:
+    #- 标签
+    summary: 负责帮助授课老师批改学生作业和辅助简单的网络开发教学演示和答疑
+    #detail: 同时包含 summary和detail在Chrome，Safari(包括IOS)，Android和新版Firefox等会自动折叠，不支持折叠的浏览器和展开后表现一致
     # open: open
     #可以设置open默认展开
-  - title: Job Title
-    sub: Your 2nd, Inc.  
-    duration: Apr 2013 - Mar 2016
-    tags: 
-    - tagname
-    summary: Summary your job or work. (Collapse)
-    detail: Details can be collapsed in Chrome Safari, Firefox, Opera and so on. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.
+  - title: 软件工程师
+    sub: Google Canada Corporation
+    duration: "2018年10月 - 2020年12月"
+    #tags: 
+    #- tagname
+    summary: 负责Google Nest Hub项目下的新功能的代码编写，测试以及原有功能在其他平台上的移植和测试
+    #detail: Details can be collapsed in Chrome Safari, Firefox, Opera and so on. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.
+  - title: 实习生
+    sub: Google Inc
+    duration: "2017年7月 - 2017年9月"
+    summary: 参与Image Understanding的相关研究
+  - title: 实习生
+    sub: Personify Inc
+    duration: "2015年6月 - 2015年8月"
+    summary: 参与增强现实与人脸识别的相关代码编写和测试
+  - title: 实习生
+    sub: 微软亚洲研究院
+    duration: "2013年7月 - 2014年2月"
+    summary: 参与手机与平板App测试的自动化代码编写，参与团队论文发表，并在实习期结束时被评为优秀实习生
 
-- type: projects
-  name: Projects
-  content:
-  - title: 项目名称
-    duration: xxxx年xx月 - yyyy年yy月
-    detail: 项目和工作介绍，项目总结.
-    sub: 维护者
-  - title: Project Name
-    summary: Projects' introduction or summary
-    detail:
-      md: _data/demo.md
-    sub: Creator and maintainer.
+#- type: projects
+#  name: Projects
+#  content:
+#  - title: 项目名称
+#    duration: xxxx年xx月 - yyyy年yy月
+#    detail: 项目和工作介绍，项目总结.
+#    sub: 维护者
+#  - title: Project Name
+#    summary: Projects' introduction or summary
+#    detail:
+#      md: _data/demo.md
+#    sub: Creator and maintainer.
    #可继续添加更多内容
 
 #others 其他简略内容(列表)
 others: #其他列表显示
-- type: others #ID可以为空
-  name: '其他'
+- type: publications #ID可以为空
+  name: '发表学术论文'
   content: #选择需要的格式
-  - 单行文字
-  - title: "加粗:"
-    text: "列表项二"
-  - title: "兴趣:"
-    items: #单行列表
-    - 睡觉
-    - 吃饭
-    - coding
-  - title: 列表
-    list:
-    - 第一项
-    - 第二项
+  - Liu, Yan, Yun Li, Lennart Johnsson, and Andrew A. Chien. "Lifetime and Deployment Limits for Mobile, 3D-Perceptual Applications." In International Conference on Virtual, Augmented and Mixed Reality, pp. 319-329. Springer International Publishing, 2016.
+  - Liang, Chieh-Jan Mike, Nicholas D. Lane, Niels Brouwers, Li Zhang, Börje F. Karlsson, Hao Liu, Yan Liu et al. "Caiipa: Automated large-scale mobile app testing through contextual fuzzing." In Proceedings of the 20th annual international conference on Mobile computing and networking, pp. 519-530. ACM, 2014.
+  #- 单行文字
+  #- title: "加粗:"
+  #  text: "列表项二"
+  #- title: "兴趣:"
+  #  items: #单行列表
+  #  - 睡觉
+  #  - 吃饭
+  #  - coding
+  #- title: 列表
+  #  list:
+  #  - 第一项
+  #  - 第二项
 #- type: 
 #  name: '其他'
 #  content: #选择需要的格式
 #  - 单行文字
 #  - 如果有可以继续添加
+
+- type: awards
+  name: '其他获奖情况'
+  content:
+  - 第36届ACM-ICPC全球总决赛第四名, 金牌, 亚洲冠军
+  - 2011 ACM-ICPC 亚洲区预赛福冈赛区第二名
+  - 2011 ACM-ICPC 亚洲区预赛大连赛区冠军
+  - 2010 ACM-ICPC 亚洲区预赛天津赛区第四名
+  - 2012年度博世奖学金获得者
 
 #footer 脚注，打印版和web版不同不显示    
 footer: #脚注多组
