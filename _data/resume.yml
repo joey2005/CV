@@ -109,7 +109,7 @@ main: #简历主要内容，
 #others 其他简略内容(列表)
 others: #其他列表显示
 - type: publications #ID可以为空
-  name: '发表学术论文'
+  name: '学术论文'
   content: #选择需要的格式
   - Liu, Yan, Yun Li, Lennart Johnsson, and Andrew A. Chien. "Lifetime and Deployment Limits for Mobile, 3D-Perceptual Applications." In International Conference on Virtual, Augmented and Mixed Reality, pp. 319-329. Springer International Publishing, 2016.
   - Liang, Chieh-Jan Mike, Nicholas D. Lane, Niels Brouwers, Li Zhang, Börje F. Karlsson, Hao Liu, Yan Liu et al. "Caiipa: Automated large-scale mobile app testing through contextual fuzzing." In Proceedings of the 20th annual international conference on Mobile computing and networking, pp. 519-530. ACM, 2014.
@@ -132,7 +132,7 @@ others: #其他列表显示
 #  - 如果有可以继续添加
 
 - type: awards
-  name: '其他获奖情况'
+  name: '获奖情况'
   content:
   - 第36届ACM-ICPC全球总决赛第四名, 金牌, 亚洲冠军
   - 2011 ACM-ICPC 亚洲区预赛福冈赛区第二名
@@ -141,13 +141,13 @@ others: #其他列表显示
   - 2012年度博世奖学金获得者
 
 #footer 脚注，打印版和web版不同不显示    
-footer: #脚注多组
-  print: #打印版markdown或者html
-  screen:
-  - text: "简历脚注"
+#footer: #脚注多组
+#  print: #打印版markdown或者html
+#  screen:
+#  - text: "简历脚注"
   #   href: '/'
-  - text: "Made with &hearts; by NewFuture"
-    href: "https://github.com/NewFuture/CV/"
+#  - text: "Made with &hearts; by NewFuture"
+#    href: "https://github.com/NewFuture/CV/"
 
 #页面额外js脚本，如xx统计
 scripts:
