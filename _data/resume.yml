@@ -112,7 +112,7 @@ others: #其他列表显示
   name: '学术论文'
   content: #选择需要的格式
   - Liu, Yan, Yun Li, Lennart Johnsson, and Andrew A. Chien. \"Lifetime and Deployment Limits for Mobile, 3D-Perceptual Applications.\" In International Conference on Virtual, Augmented and Mixed Reality, pp. 319-329. Springer International Publishing, 2016.
-  - Liang, Chieh-Jan Mike, Nicholas D. Lane, Niels Brouwers, Li Zhang, Börje F. Karlsson, Hao Liu, Yan Liu et al. \"Caiipa\: Automated large-scale mobile app testing through contextual fuzzing.\" In Proceedings of the 20th annual international conference on Mobile computing and networking, pp. 519-530. ACM, 2014.
+  - Liang, Chieh-Jan Mike, Nicholas D. Lane, Niels Brouwers, Li Zhang, Börje F. Karlsson, Hao Liu, Yan Liu et al. \"Caiipa： Automated large-scale mobile app testing through contextual fuzzing.\" In Proceedings of the 20th annual international conference on Mobile computing and networking, pp. 519-530. ACM, 2014.
   #- 单行文字
   #- title: "加粗:"
   #  text: "列表项二"
