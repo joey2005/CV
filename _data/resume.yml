@@ -33,11 +33,11 @@ main: #简历主要内容，
   - title: University of Chicago
     duration: "2014年9月 - 2018年4月"
     sub: Computer Science PhD
-    detail: 在芝加哥大学计算机科学专业攻读博士，后因自身不适合科研而中途退出选择参加工作，读博期间曾在HCII会议上发表过科研成果
+    detail: 在芝加哥大学计算机科学专业攻读博士，曾在HCII会议上发表过科研成果，后因自身不适合科研而中途退出选择参加工作
   - title: 上海交通大学
     duration: 2010年9月 - 2014年6月
     sub: 电子信息与电气工程专业本科
-    detail: 在上海交大读本科期间多次参加ACMICPC竞赛并获奖
+    detail: 在上海交通大学读本科期间学习成绩名列前茅，也曾多次参加ACM/ICPC竞赛并获奖
 
 - type: skills
   name: "技能"
@@ -82,7 +82,7 @@ main: #简历主要内容，
   - title: 实习生
     sub: Google Inc
     duration: "2017年7月 - 2017年9月"
-    summary: 参与Image Understanding的相关研究
+    summary: 参与Image Understanding的相关研究，主要课题为利用CNN实现低像素图片的高清化
   - title: 实习生
     sub: Personify Inc
     duration: "2015年6月 - 2015年8月"
@@ -90,7 +90,7 @@ main: #简历主要内容，
   - title: 实习生
     sub: 微软亚洲研究院
     duration: "2013年7月 - 2014年2月"
-    summary: 参与手机与平板App测试的自动化代码编写，参与团队论文发表，并在实习期结束时被评为优秀实习生
+    summary: 参与手机与平板App测试的自动化代码编写与团队论文发表，并在实习期结束时被评为优秀实习生
 
 #- type: projects
 #  name: Projects
